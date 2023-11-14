@@ -1,6 +1,6 @@
-import { isNavigationLink, useLogger, useNavigationItems, useRenderedNavigationItems, useSession, type NavigationLinkRenderProps, type NavigationSectionRenderProps, type RenderItemFunction, type RenderSectionFunction } from "@squide/firefly";
-import { Suspense, useCallback, type MouseEvent, type ReactNode } from "react";
-import { Link, Outlet, useNavigate } from "react-router-dom";
+import { isNavigationLink, useNavigationItems, useRenderedNavigationItems, type NavigationLinkRenderProps, type NavigationSectionRenderProps, type RenderItemFunction, type RenderSectionFunction } from "@squide/firefly";
+import { Suspense, type ReactNode } from "react";
+import { Link, Outlet } from "react-router-dom";
 
 type RenderLinkItemFunction = (item: NavigationLinkRenderProps, index: number, level: number) => ReactNode;
 
