@@ -1,0 +1,25 @@
+{
+    "name": "squide-sandbox",
+    "description": "A sandbox to test Squide packages.",
+    "private": true,
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/patricklafrance/squide-sandbox.git"
+    },
+    "scripts": {
+        "dev": "pnpm -r --parallel dev",
+        "build": "pnpm -r --parallel build",
+        "serve-build": "pnpm -r --parallel serve-build"
+    },
+    "devDependencies": {
+        "@typescript-eslint/parser": "6.10.0",
+        "@workleap/eslint-plugin": "3.0.0",
+        "@workleap/typescript-configs": "3.0.2",
+        "eslint": "8.53.0",
+        "typescript": "5.2.2"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
